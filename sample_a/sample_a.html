@@ -225,6 +225,34 @@
 		article section:nth-of-type(odd) figcaption{
 			text-align: right;
 		}
+		/* ===== PC用の設定 ===== */
+		@media only screen and(min-width: 900px;){
+
+		/* =====  タブレット用の設定 ==== */
+		@media only screen and(min-width: 600px;){
+
+		div#container {
+			width: 100%;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			padding:0 10px;
+			background-position: -3px 380px, 100px 460px;
+		}
+
+		nav ul{
+			font-size: 10px;
+		}
+
+		nav ul li a{
+			width: 100px;
+		}
+
+		header#pageheader img {
+			width: 100px;
+			height: auto;
+		}
+		
 		/* ３段組み */
 		article div[itemprop="articleBody"]{
 			display: -webkit-box
@@ -245,6 +273,8 @@
 		article section:nth-of-type(1n)figcaption{
 			text-align: center;
 			margin-bottom: 15px;
+		}
+		}
 		}
 	</style>
 	     <!--[if it IE9]>
